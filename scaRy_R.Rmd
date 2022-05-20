@@ -40,7 +40,7 @@ knitr::write_bib(c(
 
 I write this blog as a reflection of my personal journey in learning `R` as a programming language. I will use **`r version[['version.string']]`** throughout the blog. I intend it to be read by seasoned R users as well as new R users whom have not even downloaded the program, just to have a glimpse of the reality that lies ahead.
 
-Learning `R`, like any other programming language, is normally received by learners (especially those with zero background in programming) with awe. Why? Because it normally comes from people with experience, who have used the program for a long time that they forget how a new user should get into the learning process. 
+Learning `R`, like any other programming language, is normally received by learners (especially those with _zero_ background in programming) with awe. Why? Because it normally comes from people with experience, who have used the program for a long time that they forget how a new user should get into the learning process. 
 
 # ScaRy comments
 
