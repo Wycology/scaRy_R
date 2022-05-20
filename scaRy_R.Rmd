@@ -1,0 +1,34 @@
+---
+title: "<center>**scaRy_R**</center>"
+author: "<center>Wyclife Agumba Oluoch</center>"
+date: '<center>`r Sys.time()`</center>'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+I write this blog as a reflection of my personal journey in learning `R` as a programming language. I, therefore, intend it to be read by seasoned R users as well as new R users whom have not even downloaded the program, just to have a glimpse of the reality that lies ahead.
+
+Learning `R`, like any other programming language, is normally received by learners with awe. Why? Because it normally comes from people with experience, who have used the program for a long time that they forget how a new user should get into the learning process. 
+
+# Challenges faced by new learners.
+
+ - We cannot teach you everything in `R`. 
+ 
+ - From the basics we have given you, it is now upon you to explore more and learn.
+ 
+ - Now you can fetch your own data and rerun the scripts.
+ 
+ - All the scripts are available on GitHub repository.
+
+These are some ot the statements that return potential `R` users back to regular spreadsheets.
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
