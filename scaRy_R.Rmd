@@ -38,11 +38,11 @@ knitr::write_bib(c(
 
 # Introduction
 
-I write this blog as a reflection of my personal journey in learning `R` as a programming language. I, therefore, intend it to be read by seasoned R users as well as new R users whom have not even downloaded the program, just to have a glimpse of the reality that lies ahead.
+I write this blog as a reflection of my personal journey in learning `R` as a programming language. I will use **`r version[['version.string']]`** throughout the blog. I intend it to be read by seasoned R users as well as new R users whom have not even downloaded the program, just to have a glimpse of the reality that lies ahead.
 
 Learning `R`, like any other programming language, is normally received by learners with awe. Why? Because it normally comes from people with experience, who have used the program for a long time that they forget how a new user should get into the learning process. 
 
-# Challenges faced by new learners.
+# ScaRy comments
 
  - We cannot teach you everything in `R` `r emo::ji("face")`. 
  
@@ -61,7 +61,9 @@ Learning `R`, like any other programming language, is normally received by learn
  - There is also option to use `RStudio Cloud`.
  
  - Follow my instructions otherwise it will throw an `Error` `r emo::ji("ear")`.
+ 
+ - Google is your best friend, the R community is huge.
 
-These are some of the statements that return potential `R` users back to regular spreadsheets.
+These are some of the statements that return potential `R` users back to regular spreadsheets. Let me tell you how.
 
 # Conclusion
