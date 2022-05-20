@@ -10,7 +10,7 @@ output:
     toc: true
     toc_depth: 2
     toc_float: true
-    theme: darkly
+    theme: cosmo # darkly, cosmo
     #highlight: pygments
 ---
 
@@ -63,7 +63,13 @@ Learning `R`, like any other programming language, is normally received by learn
  - Follow my instructions otherwise it will throw an `Error` `r emo::ji("ear")`.
  
  - Google is your best friend, the R community is huge.
+ 
+ - read.csv, why not just import_csv?
 
 These are some of the statements that return potential `R` users back to regular spreadsheets. Let me tell you how.
 
+A pro in Excel, SPSS among other GUI based applications are hugely pissed off by these statements. I wish I could know the population of potential R users who dropped the package the first day because of one or more of the sentences listed above.
+
 # Conclusion
+
+# References
