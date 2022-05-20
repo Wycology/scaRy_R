@@ -2,11 +2,38 @@
 title: "<center>**scaRy_R**</center>"
 author: "<center>Wyclife Agumba Oluoch</center>"
 date: '<center>`r Sys.time()`</center>'
-output: html_document
+bibliography: 
+  - bib/packages.bib
+nocite: '@*'
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: darkly
+    #highlight: pygments
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libs, echo=FALSE, warning=FALSE, message=FALSE, include=FALSE}
+packages <- c("base",
+              'knitr',
+              'rmarkdown',
+              'prettydoc')
+installed_packages <- packages %in% rownames(installed.packages())
+if(any(installed_packages == FALSE)){
+  install.packages(packages[!installed_packages])
+}
+lapply(packages, library, character.only = TRUE) |> invisible()
+```
+
+```{r write_bib, echo=FALSE, warning=FALSE, message=FALSE, include=FALSE}
+knitr::write_bib(c(
+  .packages(), packages
+), 'bib/packages.bib')
 ```
 
 # Introduction
@@ -25,10 +52,8 @@ Learning `R`, like any other programming language, is normally received by learn
  
  - All the scripts are available on GitHub repository.
 
-These are some ot the statements that return potential `R` users back to regular spreadsheets.
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+These are some of the statements that return potential `R` users back to regular spreadsheets.
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# Conclusion
