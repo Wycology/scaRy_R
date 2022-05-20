@@ -44,16 +44,24 @@ Learning `R`, like any other programming language, is normally received by learn
 
 # Challenges faced by new learners.
 
- - We cannot teach you everything in `R`. 
+ - We cannot teach you everything in `R` `r emo::ji("face")`. 
  
- - From the basics we have given you, it is now upon you to explore more and learn.
+ - From the basics we have given you, it is now upon you to explore more and learn `r emo::ji("cry")`.
  
- - Now you can fetch your own data and rerun the scripts.
+ - Now you can fetch your own data and rerun the scripts `r emo::ji("sad")`.
  
  - All the scripts are available on GitHub repository.
+ 
+ - Make sure you have the latest version of `R` and `RStudio`.
+ 
+ - You can then run everything in Docker container `r emo::ji("love")`.
+ 
+ - Kindly share your RMarkdown via our `Slack` channel.
+ 
+ - There is also option to use `RStudio Cloud`.
+ 
+ - Follow my instructions otherwise it will throw an `Error` `r emo::ji("ear")`.
 
 These are some of the statements that return potential `R` users back to regular spreadsheets.
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 # Conclusion
