@@ -65,6 +65,8 @@ Learning `R`, like any other programming language, is normally received by learn
  - Google is your best friend, the R community is huge.
  
  - read.csv, why not just import_csv?
+ 
+ - You can get help by typing ? followed by the function name.
 
 These are some of the statements that return potential `R` users back to regular spreadsheets. Let me tell you how.
 
