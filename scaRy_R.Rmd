@@ -44,7 +44,7 @@ Learning `R`, like any other programming language, is normally received by learn
 
 # ScaRy comments
 
- - We cannot teach you everything in `R` `r emo::ji("face")`. 
+ - <small>We cannot teach you everything in `R` `r emo::ji("face")`</small>. 
  
  - From the basics we have given you, it is now upon you to explore more and learn `r emo::ji("cry")`.
  
