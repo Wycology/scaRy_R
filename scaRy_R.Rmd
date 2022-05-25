@@ -54,6 +54,8 @@ Learning `R`, like any other programming language, is normally received by learn
  
  - Make sure you have the latest version of `R` and `RStudio`.
  
+ - You may also need to install `Rtools`.
+ 
  - You can then run everything in Docker container `r emo::ji("love")`.
  
  - Kindly share your RMarkdown via our `Slack` channel.
