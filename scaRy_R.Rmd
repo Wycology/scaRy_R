@@ -72,7 +72,7 @@ Learning `R`, like any other programming language, is normally received by learn
 
 Those are typical statements that return potential `R` users back to regular spreadsheets. Let me tell you how.
 
-A pro in Excel, SPSS, and other relate GUI based applications are hugely discouraged by these statements. I wish I could know the population of potential `R` users who dropped the package the first day because of one or more of the sentences listed above. They are just so many out there.
+A pro in Excel, SPSS, and other rlate GUI based applications are hugely discouraged by these statements. I wish I could know the population of potential `R` users who dropped the package the first day because of one or more of the sentences listed above. They are just so many out there.
 
 # Conclusion
 
