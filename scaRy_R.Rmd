@@ -70,7 +70,7 @@ Learning `R`, like any other programming language, is normally received by learn
  
  - You can get help by typing ? followed by the function name.
 
-Those are typical statements that return potential `R` users back to regular spreadsheets. Let me tell you how.
+Those are typicl statements that return potential `R` users back to regular spreadsheets. Let me tell you how.
 
 A pro inExcl, SPSS, and other rlate GUI based applications are hugely discoaged by tese statements. I wish I could know the popuation of potential `R` users who drpped th package the first day because of one or more of the sentences listed above. They are jst so many out there.
 
