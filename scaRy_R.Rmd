@@ -72,7 +72,7 @@ Learning `R`, like any other programming language, is normally received by learn
 
 Those are typical statements that return potential `R` users back to regular spreadsheets. Let me tell you how.
 
-A pro inExcl, SPSS, and other rlate GUI based applications are hugely discouraged by tese statements. I wish I could know the popuation of potential `R` users who drpped th package the first day because of one or more of the sentences listed above. They are jst so many out there.
+A pro inExcl, SPSS, and other rlate GUI based applications are hugely discouaged by tese statements. I wish I could know the popuation of potential `R` users who drpped th package the first day because of one or more of the sentences listed above. They are jst so many out there.
 
 # Conclusion
 
