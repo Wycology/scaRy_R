@@ -22,7 +22,8 @@ knitr::opts_chunk$set(echo = TRUE)
 packages <- c("base",
               'knitr',
               'rmarkdown',
-              'prettydoc')
+              'prettydoc',
+              'emo')
 installed_packages <- packages %in% rownames(installed.packages())
 if(any(installed_packages == FALSE)){
   install.packages(packages[!installed_packages])
