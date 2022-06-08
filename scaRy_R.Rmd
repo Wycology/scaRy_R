@@ -81,13 +81,13 @@ I write this post to reflection of my  journey in learning `R` as a statistical 
 
 Learning `R`, I think just like any other programming language (though I have no much experience in those 'other' programming languages), is normally received by learners  with _zero_ background in programming with awe. Why? Because the training normally comes from seasoned users, who have used the program for a long time that they overlook basics that a new user should grasp while making their initial step into `R`. 
 
-A seasoned `R` user will start teaching R by statements like:
+A seasoned `R` user will start teaching `R` by statements like:
 
 # Scope
 
  - <span style="color: red;">**We cannot teach you everything in `R` `r emo::ji("face")`</small>**.</span> 
 
-Well, to a new learner, don't think that what you will cover is too little, it will still be enough to get you started. So, let that statement not scare you. It is like a lecturer teaching **Island Biogeography** and then referring students to other literature to learn more into that concept. So, this is normal. Carry on!
+Well, to a new learner, do not think that what you will cover is too little, it will still be enough to get you started. So, let that statement not scare you. It is like a lecturer teaching **Island Biogeography** and then referring students to other literature to learn more into that concept. So, this is normal. Carry on!
 
 # Version
 
