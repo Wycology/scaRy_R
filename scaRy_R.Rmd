@@ -101,11 +101,11 @@ How do you even start to make sure? Anyway, since you will be downloading `R` fo
  
 I know, this can be too much to expect from newbie. What it does is that it helps to install packages that need compilation. An analogy to this is doing Masters in Germany. Now, German students can be admitted without any language course requirements. However, if you come from non-German speaking country, you may need a 'compiler' to train you on speaking German language then you get enrolled into your course of choice. Now some packages, forget about what packages are now, may need compilation before they are usable in `R` and that is the role of `RTools`. However, as a new user, most packages you will need can run without compilation: They speak same language as `R`! So, keep going!
 
-# Slack channel
+# `Slack` channel
  
   - <span style="color: green;">**Kindly share your RMarkdown via our `Slack` channel**.</span>
  
-"Hey! we are here to learn `R` not slack!", you may say. Slack is actually making your work easier. It is where you can share your progress and get help when stuck. What we are trying to avoid here is sending e-mail to everyone while asking for help. Instead, just post it on slack and everyone in the channel will be able to see and suggest possible help. Even if you succeed in what is tormenting others, you can also share it there. So, it is your site for help and sharing. Sharing is caring! Slack is to your advantage.
+"Hey! we are here to learn `R` not `slack`!", you may say. `Slack` is actually making your work easier. It is where you can share your progress and get help when stuck. What we are trying to avoid here is sending e-mail to everyone while asking for help. Instead, just post it on `slack` and everyone in the channel will be able to see and suggest possible help. Even if you succeed in what is tormenting others, you can also share it there. So, it is your site for help and sharing. Sharing is caring! `Slack` is to your advantage.
 
 # GitHub
  
@@ -119,7 +119,7 @@ This is another scary word that can slip from the mouth of a seasoned trainer ta
  
 Normally when being introduced to `R`, the trainer uses some data already available in the programme or associated with some loaded packages. However, the data which you will analyse for your own good will be from somewhere else. Its format and size, generally its structure, will most likely be completely different. This is the same as research methods course. You are all trained on same interview protocols, focus group discussion procedures, randomized complete block designs, but using them in the field is research specific. For example I will interview 30 people, another person will interview 50 people in 10 cities. So, take this as equipping yourself with the right tools and skills to go and explore your own data. Keep going!
 
-# RStudio cloud
+# `RStudio` cloud
  
  - <span style="color: violet;">**There is also option to use `RStudio Cloud`**.</span>
  
@@ -133,9 +133,9 @@ This is programming! Every single mistake, forgetting comma, forgetting }, can l
 
 # Google! Google!
 
- - <span style="color: orange;">**Google is your best friend, the R community is huge**.</span>
+ - <span style="color: orange;">**Google is your best friend, the `R` community is huge**.</span>
 
-Yes, Google. Google it, copy the error message and paste it in the browser. You are not alone facing the error. Many people, including your trainer, got errors before. So, you won't miss an answer in Google. Even when you will be `perfect` in `R`, you will still get errors or bugs. At this point, I will encourage you to use `slack` channel first because Google will throw to you everything and you need to be more experienced to separate bones from flesh of sardines. Within `slack` channel, we are working on quite closely related topics and as such you will get help faster and more specific. Once it is solved on slack, other members will also benefit from it, should they face the problem with their data too. On a related note, do not single out one person whom you think knows it all and bombard them with all your questions. No. Ask on the `slack` channel. Others too want to learn. The problem is not personal, neither should the answer be. `Slack!` `Slack!` `Slack!`
+Yes, Google. Google it, copy the error message and paste it in the browser. You are not alone facing the error. Many people, including your trainer, got errors before. So, you won't miss an answer in Google. Even when you will be `perfect` in `R`, you will still get errors or bugs. At this point, I will encourage you to use `slack` channel first because Google will throw to you everything and you need to be more experienced to separate bones from flesh of sardines. Within `slack` channel, we are working on quite closely related topics and as such you will get help faster and more specific. Once it is solved on `slack`, other members will also benefit from it, should they face the problem with their data too. On a related note, do not single out one person whom you think knows it all and bombard them with all your questions. No. Ask on the `slack` channel. Others too want to learn. The problem is not personal, neither should the answer be. `Slack!` `Slack!` `Slack!`
 
 # Terms and names
  
