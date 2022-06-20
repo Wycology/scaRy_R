@@ -22,12 +22,9 @@ knitr::opts_chunk$set(echo = TRUE)
 packages <- c("base",
               'knitr',
               'rmarkdown',
-              'prettydoc',
-              'emo')
+              'prettydoc')
 installed_packages <- packages %in% rownames(installed.packages())
-if(any(installed_packages == FALSE)){
-  install.packages(packages[!installed_packages])
-}
+
 lapply(packages, library, character.only = TRUE) |> invisible()
 ```
 
@@ -71,6 +68,7 @@ knitr::write_bib(c(
 ), 'bib/packages.bib')
 ```
 
+
 ```
 Note: Some of the above links you may need to copy and paste in your browser then run.
 ```
@@ -85,83 +83,89 @@ A seasoned `R` user will start teaching `R` by statements like:
 
 # Scope
 
- - <span style="color: red;">**We cannot teach you everything in `R` `r emo::ji("face")`</small>**.</span> 
+ - <span style="color: red;">**We cannot teach you everything in `R` `r emoji::emoji("cold_face")`</small>**.</span> 
 
 Well, to a new learner, do not think that what you will cover is too little, it will still be enough to get you started. So, let that statement not scare you. It is like a lecturer teaching **Island Biogeography** and then referring students to other literature to learn more into that concept. So, this is normal. Carry on!
 
 # Version
 
- - <span style="color: orange;">**Make sure you have the latest version of `R` and `RStudio`**.</span>
+ - <span style="color: orange;">**Make sure you have the latest version of `R` and `RStudio``r emoji::emoji("alarm_clock")`**.</span>
 
 How do you even start to make sure? Anyway, since you will be downloading `R` for the first time, you are likely to download the latest version. Now, to give you some background, since the first `R` programme was created, efforts have been made to make it better. Each time it is made better, a version is released. Think of yourself as someone who is learning `R` with a better version than what even your trainer used to learn it! With that, most things are more simplified and more user friendly to you. So, it is to your advantage to have the latest version of `R`. Do not be scared. You will say the same to those whom you will be training one day.
 
 # Package compilation
 
- - <span style="color: magenta;">**You may also need to install `RTools`**.</span>
+ - <span style="color: magenta;">**You may also need to install `RTools` `r emoji::emoji("toolbox")`**.</span>
  
 I know, this can be too much to expect from newbie. What it does is that it helps to install packages that need compilation. An analogy to this is doing Masters in Germany. Now, German students can be admitted without any language course requirements. However, if you come from non-German speaking country, you may need a 'compiler' to train you on speaking German language then you get enrolled into your course of choice. Now some packages, forget about what packages are now, may need compilation before they are usable in `R` and that is the role of `RTools`. However, as a new user, most packages you will need can run without compilation: They speak same language as `R`! So, keep going!
 
 # `Slack` channel
  
-  - <span style="color: green;">**Kindly share your RMarkdown via our `Slack` channel**.</span>
+  - <span style="color: green;">**Kindly share your RMarkdown via our `Slack` channel `r emoji::emoji("flying_saucer")`**.</span>
  
 "Hey! we are here to learn `R` not `slack`!", you may say. `Slack` is actually making your work easier. It is where you can share your progress and get help when stuck. What we are trying to avoid here is sending e-mail to everyone while asking for help. Instead, just post it on `slack` and everyone in the channel will be able to see and suggest possible help. Even if you succeed in what is tormenting others, you can also share it there. So, it is your site for help and sharing. Sharing is caring! `Slack` is to your advantage.
 
 # GitHub
  
- - <span style="color: blue;">**All the scripts are available on GitHub repository**.</span>
+ - <span style="color: blue;">**All the scripts are available on GitHub repository `r emoji::emoji("rocket")`**.</span>
  
-This is another scary word that can slip from the mouth of a seasoned trainer talking to newbies. Whatever <span style="color: red;">**`GitHub`**</span> means to someone who has just installed `R` for the first time or generally new to programming and version control is obscure. However, as a trainee, see this as something to your advantage that all running codes are stored somewhere online where you can get them forever, copy and paste in `R`, and use them repeatedly without every time sending e-mail to the trainer requesting for the scripts. You should think of `GitHub` as like **Google Drive** for your data or documents.
+This is another scary word that can slip from the mouth of a seasoned trainer talking to newbies. Whatever <span style="color: red;">**`GitHub`**</span> means to someone who has just installed `R` for the first time or generally new to programming and version control is obscure. However, as a trainee, see this as something to your advantage that all running codes are stored somewhere online where you can get them forever, copy and paste in `R`, and use them repeatedly without every time sending e-mail to the trainer requesting for the scripts. You should think of `GitHub` as **Google Drive** for your data or documents.
  
 # Personal work
  
-  - <span style="color: indigo;">**Now you can fetch your own data and rerun the scripts `r emo::ji("sad")`**.</span>
+  - <span style="color: indigo;">**Now you can fetch your own data and rerun the scripts `r emoji::emoji("globe_showing_Europe_Africa")`**.</span>
  
-Normally when being introduced to `R`, the trainer uses some data already available in the programme or associated with some loaded packages. However, the data which you will analyse for your own good will be from somewhere else. Its format and size, generally its structure, will most likely be completely different. This is the same as research methods course. You are all trained on same interview protocols, focus group discussion procedures, randomized complete block designs, but using them in the field is research specific. For example I will interview 30 people, another person will interview 50 people in 10 cities. So, take this as equipping yourself with the right tools and skills to go and explore your own data. Keep going!
+Normally when being introduced to `R`, the trainer uses some data already available in the programme or associated with some loaded packages. However, the data which you will analyse for your own good will be from somewhere else. Its format and size, generally its structure, will most likely be completely different. This is the same as research methods course. We are all trained on same interview protocols, focus group discussion procedures, randomized complete block designs, but using them in the field is research specific. For example I will interview 30 people, another person will interview 50 people in 10 cities. So, take this as equipping yourself with the right tools and skills to go and explore your own data. Keep going!
 
 # `RStudio` cloud
  
- - <span style="color: violet;">**There is also option to use `RStudio Cloud`**.</span>
+ - <span style="color: violet;">**There is also option to use `RStudio Cloud` `r emoji::emoji("cloud")`**.</span>
  
 Cloud computing, maybe you are hearing it for the first time, is the bread and butter of data scientists and related fields moving forward. Just like Microsoft Word in your desktop and Google docs online, there is also `R` you can run on desktop and `R` you can interact with online via `RStudio Cloud`. When you spill coffee on your PC, it may be difficult to recover programmes and data in it. However, if you were having everything on the so called `cloud`, then you have no worry at all, except for the hardware lost. You can access everything anywhere. On Mac, Linux, Windows, absolutely any platform provided you have internet coverage. Think about it.
 
 # Error messages
  
- - <span style="color: red;">**Follow my instructions otherwise it will throw an `Error` `r emo::ji("ear")`**.</orange>
+ - <span style="color: red;">**Follow my instructions otherwise it will throw an `Error` `r emoji::emoji("radioactive")`**.</orange>
 
-This is programming! Every single mistake, forgetting comma, forgetting }, can lead to an annoying Error. When faced with errors, do not give up, they are one of the best ways to learn. Just read the error message, sometimes you will get an answer by reading the error message. However, as a new user of `R`, I do not expect you to know how to interpret all error messages. So ask colleagues on the `slack` channel. When asking, do not say "I ran the code and got an error!" No one can help you with this kind of question. There is something called reproducible example, you need to show the code, data, and error message. Sometimes, you may need to state the version of OS you are using as well as that of `R` and `RStudio` and packages among others. Depending on the nature of the error. It is like going to a lawyer. To increase chances of the lawyer winning your case, you need to give the lawyer the complete and true details of the case. So, tell us everything that can help us to help you. Otherwise we cannot. Be open, `R` itself is `Open Access`.
+This is programming! Every single mistake, forgetting comma, forgetting }, can lead to an annoying Error. When faced with errors, do not give up, they are one of the best ways to learn. Just read the error message, sometimes you will get an answer by reading the error message. However, as a new user of `R`, It is not expected that you know how to interpret all error messages. So ask colleagues on the `slack` channel. When asking, do not say "I ran the code and got an error!" No one can help you with this kind of question. There is something called reproducible example, you need to show the code, data (or part of them), and error message. Sometimes, you may need to state the version of OS you are using as well as that of `R` and `RStudio` and packages among others. Depending on the nature of the error. It is like going to a lawyer. To increase chances of the lawyer winning your case, you need to give the lawyer the complete and true details of the case. So, tell us everything that can help us to help you. Otherwise we cannot. Be open, `R` itself is `Open Source/Access`.
 
 # Google! Google!
 
- - <span style="color: orange;">**Google is your best friend, the `R` community is huge**.</span>
+ - <span style="color: orange;">**Google is your best friend, the `R` community is huge `r emoji::emoji("computer")`**.</span>
 
-Yes, Google. Google it, copy the error message and paste it in the browser. You are not alone facing the error. Many people, including your trainer, got errors before. So, you won't miss an answer in Google. Even when you will be `perfect` in `R`, you will still get errors or bugs. At this point, I will encourage you to use `slack` channel first because Google will throw to you everything and you need to be more experienced to separate bones from flesh of sardines. Within `slack` channel, we are working on quite closely related topics and as such you will get help faster and more specific. Once it is solved on `slack`, other members will also benefit from it, should they face the problem with their data too. On a related note, do not single out one person whom you think knows it all and bombard them with all your questions. No. Ask on the `slack` channel. Others too want to learn. The problem is not personal, neither should the answer be. `Slack!` `Slack!` `Slack!`
+Yes, Google. Google it, copy the error message and paste it in the browser and add `R`. You are not alone facing the error. Many people, including your trainer, got errors before. So, you most likely won't miss an answer in Google. Even when you will be `perfect` in `R`, you will still get errors or bugs. At this point, I will encourage you to use `slack` channel first because Google will throw to you everything and you might need to be more experienced to separate bones from flesh of sardines. Within `slack` channel, we are working on quite closely related topics and as such you will get help faster and more specific. Once it is solved on `slack`, other members will also benefit from it, should they face the problem with their data too. On a related note, do not single out one person whom you think knows it all and bombard them with all your questions. No. Ask on the `slack` channel. Others too want to learn. The problem is not personal, neither should the answer be. `Slack!` `Slack!` `Slack!`
 
 # Terms and names
  
- - <span style="color: magenta;">**read.csv, there is no import.csv**?</span>
+ - <span style="color: magenta;">**read.csv, there is no import.csv? `r emoji::emoji("alien")`**</span>
  
-Words used in `R` can sometimes mislead a new 'fresh' user. Read csv does not mean you will listen to the computer reading out loud every line of the csv file for you. Actually, as a new user, you would expect the function to say import csv. However, that is how the function was named and it just picks the file from where it is located and puts it within `R` environment so that you can analyze it. It will take sometime before you appreciate the choice of words used in `R` like library is not a collection of books like where you read the books but it is a function to load a package. So, do not take too much time linguistically judging the names like run, click, enter, of functions and packages. For the start, concentrate on `what` they do. Later, you will know `how` they do it. Possibly question `why` they do what they do and you will learn to `make` your own functions and packages for yourself and others. It is possible.
+Words used in `R` can sometimes mislead a new 'fresh' user. Read csv does not mean you will listen to the computer reading out loud every line of the csv file for you. Actually, as a new user, you would expect the function to say import csv. However, that is how the function was named and it just picks the file from where it is located and puts it within `R` environment so that you can analyze it. It will take sometime before you appreciate the choice of words used in `R` like library is not a collection of books like where you read the books but it is a function to load a package. So, do not take too much time linguistically judging the names like run, click, enter, of functions and packages. For the start, concentrate on `what` they do. Later, you will know `how` they do it. Possibly question `why` they do what they do and you will learn to `make` your own functions and packages for yourself and others. It is possible, others have done it, you can do it.
+
+# Calling Functions
+
+ - <span style="color: blue;">**Now we use, group_by() and then summarize() `r emoji::emoji("desktop_computer")`**</span>
+
+How on earth will you know which function to call and when to call it? Trainer will be hitting keyboard with names of functions and running them and producing awesome results! From where? Is there inner communication between the trainer and `R` that you are not aware of? How many functions are there in one package/library alone? When and how do you know that what you have typed is an object name and not a function? How risky is it to store an object with same name as a function in `R` without you knowing? Get it from me, don't worry. If you ever traveled from your hometown to a new city to stay for, say, more than 3 months then it is the same experience. You get to know where all supermarkets are, where parks are, where health facilities are, and where train/bus/taxi/tram stations are. You will not know the door of a health center while looking for a taxi, will you? It is always easy to Google like "How to get sum of elements in R vector?" and you will see solutions like sum(x), where x is the vector containing elements to be summed. Another insight, there are over 18000 packages on CRAN alone as of `r Sys.time()`. You will, most likely, need less than 20 for regular use. Within those 20, you will only need few functions from each. It is a marathon, not sprint, with time, you will get it. Keep the spirit. 
 
 # Project directory
 
- - <span style="color: green;">**Remember to save your work in the working directory or project folder**</span>
+ - <span style="color: green;">**Remember to save your work in the working directory or project folder `r emoji::emoji("file_folder")`**</span>
  
-Just like text editor or spreadsheet, after typing something and you want to close the work, you should save them. You should also know where you have saved them so that next time you can access the file easily. In the case of `R`, there is no difference, you need to know where your file is stored and save it whenever you make changes. Having something called **project directory** is a way to help you organize files. Think of a house where bed is near the door, pillow is on the window, blanket is in the freezer, duvet is in bedroom, and bedsheet is up on the fan rotating. When you want to sleep you have to walk around the room to get everything together. However, if everything is in the bedroom, it would be easier. That is your project directory in `R`. Have it and you will thank yourself!
+Just like text editor or spreadsheet, after typing something and you want to close the work, you should save them. You should also know where you have saved them so that next time you can access the file easily. In the case of `R`, there is no difference, you need to know where your file is stored and save it whenever you make changes. Having something called **project folder** is a way to help you organize files. Think of a house where bed is near the door, pillow is on the window, blanket is in the freezer, duvet is in bedroom, and bedsheet is up on the fan rotating. When you want to sleep you have to walk around the room to get everything together. However, if everything is in the bedroom, it would be easier. That is your project folder in `R`. Have it and you will thank yourself!
 
 # Docker
  
- - <span style="color: indigo;">**You can then run everything in Docker container `r emo::ji("love")`**.</span>
+ - <span style="color: indigo;">**You can then run everything in Docker container `r emoji::emoji("ship")`**.</span>
 
-Just like `GitHub` above, forget about this for now. When you will need it, you will learn it. Have you seen those people who lift the fore-wheel of bicycle and ride on hind-wheel only? Is that what you want to get to on your first day of training to ride a bicycle? I bet not. Under the version section, I said that `R` versions keep improving. With such improvements, some old codes may not run well in new versions. However, with Docker, you can run the oldest code ever written in `R`. That is enough for a beginner. Sorry, Docker is out of scope for a new `R` learner. Forget it now! Again, not knowig Docker does not mean you don't know `R`.
+Just like `GitHub` above, forget about this for now. When you will need it, you will learn it. Have you seen those people who lift the front-wheel of bicycle and ride on hind-wheel only? Is that what you want to get to on your first day of training to ride a bicycle? I bet not. Under the version section, I said that `R` versions keep improving. With such improvements, some old codes may not run well in new versions. However, with Docker, you can run the oldest code ever written in `R`. That is enough for a beginner. Sorry, Docker is out of scope for a new `R` learner. Forget it now! Again, not knowing Docker does not mean you don't know `R`.
 
 # Exploration
  
-  - <span style="color: violet;">**From the basics we have given you, it is now upon you to explore more and learn `r emo::ji("cry")`**.</span>
+  - <span style="color: violet;">**From the basics we have given you, it is now upon you to explore more and learn `r emoji::emoji("world_map")`**.</span>
  
 Just like driving course, you will be trained how to drive at a certain place. However, once you master the rules of driving, the trainer will not follow you throughout your life to show you how to drive everywhere you go. In fact, you can train others. In that same spirit, once you are introduced into `R`, keep exploring and teaching others. Today you are being trained, tomorrow you will train others. Do not feel left alone. It is the best way to learn `R`. Your current trainer was also trained one day.
 
-A pro in Excel, SPSS, STATA, and other related GUI based applications are sometimes hugely discouraged by these statements. I wish I could know the population of potential `R` users who dropped the programme the first day because they were discouraged by one or more of the sentences listed above. They are just so many out there. Do not add to their statistics because now you know the wealth in the positive sides of the statements! The trainer does not mean anything bad with those statements. All are to your advantage. Enjoy learning `R`.
+A pro in Excel, SPSS, STATA, and other related graphical user interface based applications are sometimes hugely discouraged by these statements. I wish I could know the population of potential `R` users who dropped the program the first day because they were discouraged by one or more of the sentences listed above. They are just so many out there. Do not add to their statistics because now you know the wealth in the positive sides of the statements! The trainer does not mean anything bad with those statements. All are to your advantage. Enjoy learning `R`.
 
 # Conclusion
 
