@@ -115,7 +115,7 @@ This is another scary word that can come from the mouth of a seasoned trainer. W
  
   - <span style="color: indigo;">**Now you can fetch your own data and rerun the scripts `r emoji::emoji("globe_showing_Europe_Africa")`**.</span>
  
-When being introduced to `R`, the trainer may use somdata already available in the programme or associated with some loaded packages. However, the data which you will analyse for your own good will be from somewhere else. Its format and size, generally its structure, will most likely be completely different. This is the same as research methods course. We are all trained on same interview protocols, focus group discussion procedures, randomized complete block designs, but using them in the field is research specific. For example I will interview 30 people, another person will interview 50 people in 10 cities. So, take this as equipping yourself with the right tools and skills to go and explore your own data. Keep going!
+When being introduced to `R`, the trainer may use sodata already available in the programme or associated with some loaded packages. However, the data which you will analyse for your own good will be from somewhere else. Its format and size, generally its structure, will most likely be completely different. This is the same as research methods course. We are all trained on same interview protocols, focus group discussion procedures, randomized complete block designs, but using them in the field is research specific. For example I will interview 30 people, another person will interview 50 people in 10 cities. So, take this as equipping yourself with the right tools and skills to go and explore your own data. Keep going!
 
 # `RStudio` cloud
  
