@@ -109,13 +109,13 @@ I know, this can be too much to expect from newbie. What it does is that it help
  
  - <span style="color: blue;">**All the scripts are available on GitHub repository `r emoji::emoji("rocket")`**.</span>
  
-This is another scary word that can come from the mouth of a seasoned trainer. Whatever <span style="color: red;">**`GitHub`**</span> means to someone who has just installed `R` for the first time or generally new to programming and version control is obscure. However, as a trainee, see this as something to your advantage that all running codes are stored somewhere online where you can get them forever, copy and paste in `R`, and use them repeatedly without every time sending e-mail to the trainer requesting for the scripts. You should think of `GitHub` as **Google Drive** for your data or documents.
+This is another scary word that can come from the mouth f a seasoned trainer. Whatever <span style="color: red;">**`GitHub`**</span> means to someone who has just installed `R` for the first time or generally new to programming and version control is obscure. However, as a trainee, see this as something to your advantage that all running codes are stored somewhere online where you can get them forever, copy and paste in `R`, and use them repeatedly without every time sending e-mail to the trainer requesting for the scripts. You should think of `GitHub` as **Google Drive** for your data or documents.
  
 # Personal work
  
   - <span style="color: indigo;">**Now you can fetch your own data and rerun the scripts `r emoji::emoji("globe_showing_Europe_Africa")`**.</span>
  
-When being introduced to `R`, the trainer may use data already available in the program or associated with loaded packages. However, the data which you will analyse for your own good will be from somewhere else. Its format and size, generally its structure, will most likely be completely different. This is the same as research methods course. We are all trained on same interview protocols, focus group discussion procedures, randomized complete block designs, but using them in the field is research specific. For example I will interview 30 people, another person will interview 50 people in 10 cities. So, consid this as equipping yourself with the right tools and skills to go and explore your own data. Keep going!
+When being introduced to `R`, the trainer may use data already available in the program or associated with loaded packages. However, the data which you will analyse for your own good will be from somewhere else. Its format and size, generally its structure, will most likely be completely different. This is the same as research methods course. We are all trained on same interview protocols, focus group discussion procedures, randomized complete block designs, but using them in the field is research specific. For example I will interview 30 people, another person will interview 50 people in 10 cities. So, consider this as equipping yourself with the right tools and skills to go and explore your own data. Keep going!
 
 # `RStudio` cloud
  
