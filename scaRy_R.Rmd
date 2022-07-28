@@ -125,7 +125,7 @@ Cloud computing, maybe you are hearing it for the first time, is the bread and b
 
 # Error messages
  
- - <span style="color: red;">**Follow my instructions otherwise it will throw an `Error` `r emoji::emoji("radioactive")`**.</orange>
+ - <span style="color: red;">**Follow my instructions otherwise it will throw an `Error` `r emoji::emoji("radioactive")`**.</span>
 
 This is programming! Every single mistake, forgetting comma, forgetting }, can lead to an annoying <span style="color: red;">**Error**</span>. When faced with errors, do not give up, they are one of the best ways to learn. Just read the error message, sometimes you will get an answer by reading the error message. However, as a new user of `R`, It is not expected that you know how to interpret all error messages. So ask colleagues on the `slack` channel. When asking, do not say "I ran the code and got an error!" No one can help you with this kind of question. There is something called reproducible example, you need to show the code, data (or part of them), and error message. Sometimes, you may need to state the version of OS you are using as well as that of `R` and `RStudio` and packages among others. Depending on the nature of the error. It is like going to a lawyer. To increase chances of the lawyer winning your case, you need to give the lawyer the complete and true details of the case. So, tell us everything that can help us to help you. Otherwise we cannot. Be open, `R` itself is `Open Source/Access`.
 
