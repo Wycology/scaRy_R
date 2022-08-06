@@ -85,7 +85,7 @@ An advanced`R` user will start teaching `R` by statements like:
 
  - <span style="color: red;">**We cannot teach you everything in `R` `r emoji::emoji("cold_face")`</small>**.</span> 
 
-A new learner, d not think that what you will cover is too little, it will still be enough to get you started. So, let that statement not scare you. It is like a lecturer teaching **Island Biogeography** and then referring students to other literature to learn more into that concept. So, this is normal. Carry on!
+A new learner d not think that what you will cover is too little, it will still be enough to get you started. So, let that statement not scare you. It is like a lecturer teaching **Island Biogeography** and then referring students to other literature to learn more into that concept. So, this is normal. Carry on!
 
 # Version
 
