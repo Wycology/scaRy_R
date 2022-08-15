@@ -103,7 +103,7 @@ This can be too much to expect from newbie. What it does is that it helps to ins
  
   - <span style="color: green;">**Kindly share your RMarkdown via our `Slack` channel `r emoji::emoji("flying_saucer")`**.</span>
  
-"Heye are here to learn `R` not `slack`!", you may say. `Slack` is actually making your work easier. It is where you can share your progress and get help when stuck. What we are trying to avoid here is sending e-mail to everyone while asking for help. Instead, just post it on `slack` and anyone in the channel will be able to see and suggest possible help. Even if you succeed in what is tormenting others, you can also share it there. So, it is your site for help and sharing. Sharing is caring! `Slack` is to your advantage.
+"Hee are here to learn `R` not `slack`!", you may say. `Slack` is actually making your work easier. It is where you can share your progress and get help when stuck. What we are trying to avoid here is sending e-mail to everyone while asking for help. Instead, just post it on `slack` and anyone in the channel will be able to see and suggest possible help. Even if you succeed in what is tormenting others, you can also share it there. So, it is your site for help and sharing. Sharing is caring! `Slack` is to your advantage.
 
 # GitHub
  
