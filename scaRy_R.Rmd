@@ -77,7 +77,7 @@ Note: Some of the above links you may need to copy and paste in your browser the
 
 This post is reflection of my  journey in learning `R` as a statistical programming language. I will use **`r version[['version.string']]`**. I intend it to be read by seasoned `R` users (to remind them of what they should not overlook when teaching juniors) as well as new `R` users (to tell them what should not discourage them) whom have not even downloaded the program.
 
-Learning `R`, to t,like most other programming language (though I have no much experience in those 'other' programming languages), is normally received by learners  with _zero_ background in programming with awe. Why? Because the training normally comes from seasoned users, who have used the program for a long time that they know, but overlook, basics that a new user should grasp while making their initial step into `R`. 
+Learning `R`, to the best of my ,like most other programming language (though I have no much experience in those 'other' programming languages), is normally received by learners  with _zero_ background in programming with awe. Why? Because the training normally comes from seasoned users, who have used the program for a long time that they know, but overlook, basics that a new user should grasp while making their initial step into `R`. 
 
 An advanced`R` user will start teaching `R` by statements like:
 
