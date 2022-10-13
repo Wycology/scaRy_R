@@ -163,7 +163,7 @@ Just like `GitHub` above, forget about this for now. When you will need it, you 
  
   - <span style="color: violet;">**From the basics we have given you, it is now upon you to explore more and learn `r emoji::emoji("world_map")`**.</span>
  
-You will be trained how to drive at a certain place. However, once you master the rules of driving, the trainer will not follow you throughout your life to show you how to drive everywhere you go. In fact, you can train others. In that same spirit, once you are introduced into `R`, keep exploring and teaching others. Today you are being trained, tomorrow you will train others. Do not feel left alone. It is the best way to learn `R`. Your current trainer was also trained not long ago.
+You will be trained how to drive at a certain place. However, once you  the rules of driving, the trainer will not follow you throughout your life to show you how to drive everywhere you go. In fact, you can train others. In that same spirit, once you are introduced into `R`, keep exploring and teaching others. Today you are being trained, tomorrow you will train others. Do not feel left alone. It is the best way to learn `R`. Your current trainer was also trained not long ago.
 
 A pro in Excel, SPSS, STATA, and other related graphical user interface based applications are sometimes hugely discouraged by these statements. I wish I could know the population of potential `R` users who dropped the program the first day because they were discouraged by one or more of the sentences listed above. They are so many out there. Do not add to their statistics because now you know the wealth in the positive sides of the statements! The trainer does not mean anything bad with those statements. All are to your advantage. Enjoy learning `R`.
 
