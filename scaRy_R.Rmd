@@ -97,7 +97,7 @@ How do you even start to make sure? Anyway, since you will be downloading `R` fo
 
  - <span style="color: magenta;">**You might also need to install `RTools` `r emoji::emoji("toolbox")`**.</span>
  
-This can be too much to expect from newbie. What it does is that it helps to install packages that need compilation. An analogy to this is taking a Masters degree programme in Germany. Now, German students m admitted without any language course requirements. However, if you come from non-German speaking country, you may need a 'compiler' to train you on speaking German language then you get enrolled into your course of choice. Now some packages, forget about what packages are now, may need compilation before they are usable in `R` and that is the role of `RTools`. However, as a new user, most packages you will need can run without compilation: They speak same language as `R`! So, keep going!
+This can be too much to expect from newbie. What it does is that it helps to install packages that need compilation. An analogy to this is taking a Masters degree programme in Germany. Now, German students ma admitted without any language course requirements. However, if you come from non-German speaking country, you may need a 'compiler' to train you on speaking German language then you get enrolled into your course of choice. Now some packages, forget about what packages are now, may need compilation before they are usable in `R` and that is the role of `RTools`. However, as a new user, most packages you will need can run without compilation: They speak same language as `R`! So, keep going!
 
 # `Slack` channel
  
