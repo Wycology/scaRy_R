@@ -109,7 +109,7 @@ This can be too much to expect from newbie. What it does is that it helps to ins
  
  - <span style="color: blue;">**All the scripts are available on GitHub repository `r emoji::emoji("rocket")`**.</span>
  
-This is another scary word that can come train. Whatever <span style="color: red;">**`GitHub`**</span> means to someone who has just installed `R` for the first time or generally new to programming and version control is obscure. However, as a trainee, see this as something to your advantage that all running codes are stored somewhere online where you can get them forever, copy and paste in `R`, and use them repeatedly without every time sending e-mail to the trainer requesting for the scripts. You should think of `GitHub` as **Google Drive** for your data or documents. In the world of programming it is far much more than that.
+This is another scary word that can  train. Whatever <span style="color: red;">**`GitHub`**</span> means to someone who has just installed `R` for the first time or generally new to programming and version control is obscure. However, as a trainee, see this as something to your advantage that all running codes are stored somewhere online where you can get them forever, copy and paste in `R`, and use them repeatedly without every time sending e-mail to the trainer requesting for the scripts. You should think of `GitHub` as **Google Drive** for your data or documents. In the world of programming it is far much more than that.
  
 # Personal work
  
