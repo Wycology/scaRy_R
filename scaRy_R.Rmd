@@ -151,7 +151,7 @@ How on earth will you know which function to call and when to call it? Trainer w
 
  - <span style="color: green;">**Remember to save your work in the working directory or project folder `r emoji::emoji("file_folder")`**</span>
  
-After typing script and you want to close the work, you should save them. You should also know where you have saved them so that next time you can access the file easily. In the case of `R`, there is no difference, you need to know where your file is stored and save it whenever you make changes. Having something called **project folder** is a way to help you organize files. Think of a house where bed is near the door, pillow is on the window, blanket is in the freezer, duvet is in bedroom, and bed-sheet is up on the fan rotating. When you want to sleep you have to walk around the room to get everything together. However, if everything is in the bedroom, it would be easier. That is your project folder in `R`. Have it and you will thank yourself later!
+After tying script and you want to close the work, you should save them. You should also know where you have saved them so that next time you can access the file easily. In the case of `R`, there is no difference, you need to know where your file is stored and save it whenever you make changes. Having something called **project folder** is a way to help you organize files. Think of a house where bed is near the door, pillow is on the window, blanket is in the freezer, duvet is in bedroom, and bed-sheet is up on the fan rotating. When you want to sleep you have to walk around the room to get everything together. However, if everything is in the bedroom, it would be easier. That is your project folder in `R`. Have it and you will thank yourself later!
 
 # Docker
  
