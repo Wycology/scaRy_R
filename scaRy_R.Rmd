@@ -91,7 +91,7 @@ A new learner should not think that what you will cover is too little, it will s
 
  - <span style="color: orange;">**Make sure you have the latest versions of both `R` and `RStudio``r emoji::emoji("alarm_clock")`**.</span>
 
-How do you even start to make sure? Anyway, since you will be downloading `R` for the first time, you are likely to download the latest version. Now, to give you some background, since the first `R` programme was created, efforts have been made to make it better. Each time it is made better, a version is released. Think of yourself as someone who is learning `R` with a better version than what even your trainer used to learn it! With that, most things are more simplified and more user friendly to you. So, it is to your advantage to have the latest version of `R`. Do not be scared. You will say the same to those whom you will be training one day.
+How do you even start make sure? Anyway, since you will be downloading `R` for the first time, you are likely to download the latest version. Now, to give you some background, since the first `R` programme was created, efforts have been made to make it better. Each time it is made better, a version is released. Think of yourself as someone who is learning `R` with a better version than what even your trainer used to learn it! With that, most things are more simplified and more user friendly to you. So, it is to your advantage to have the latest version of `R`. Do not be scared. You will say the same to those whom you will be training one day.
 
 # Package compilation
 
