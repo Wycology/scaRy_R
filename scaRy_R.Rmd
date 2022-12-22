@@ -1,7 +1,7 @@
 ---
-title: "<center>**Don't be sca`R`ed of `R`**</center>"
-author: "<center>Wyclife Agumba Oluoch</center>"
-date: '<center>`r Sys.time()`</center>'
+title: "**Don't be sca`R`ed of `R`**"
+author: "Wyclife Agumba Oluoch"
+date: '`r Sys.time()`'
 bibliography: 
   - bib/packages.bib
 nocite: '@*'
