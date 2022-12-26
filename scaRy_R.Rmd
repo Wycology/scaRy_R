@@ -1,5 +1,5 @@
 ---
-title: "**Don't be sca`R`ed of `R`**"
+title: "<center>**Don't be sca`R`ed of `R`**</center>"
 author: "Wyclife Agumba Oluoch"
 date: '`r Sys.time()`'
 bibliography: 
@@ -10,7 +10,7 @@ output:
     toc: true
     toc_depth: 2
     toc_float: true
-    theme: cerulean
+    theme: darkly
     highlight: haddock
 ---
 
