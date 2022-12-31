@@ -170,6 +170,6 @@ A pro in Excel, SPSS, STATA, and other related graphical user interface based ap
 # Conclusion
 
 ```
- You are the only person who can stop you in le.
+ You are the only person who can stop you in lea.
 ```
 # References
